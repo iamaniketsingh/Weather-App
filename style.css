@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  @import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@1,700&family=Poppins:wght@300&family=Roboto:wght@900&display=swap');
+
+}
+.container{
+    background-color: rgb(35, 32, 32);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card{
+    width: 30%;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    border-radius: 20px;
+    color: #ffff;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    border-radius: 30px;
+    text-align: center;
+    color: #555;
+    padding: 10px 25px;
+    font-size: 18px;
+    margin-right: 16px;
+}
+
+.search img{
+    width: 16px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ffff;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+}
+
+.temp{
+    display: flex;
+    align-items: baseline;
+}
+.temp-num{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.temp h2{
+    font-size: 40px;
+   font-weight: 400; 
+    
+}
+
+.col-2 span{
+    font-size: 15px;
+}
+
+
+
+
+.city-name{
+    font-size: 45px;
+    font-weight: 400; 
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+.humidity{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.wind{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.humidity img, .wind img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10%;
+}
+
+.humidity-num, .Wind-Speed{
+    font-size: 30px;
+}
+
